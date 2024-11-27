@@ -1,0 +1,24 @@
+		.sidebar {
+            width: 200px; /* Largura da barra lateral */
+            background-color: #5cb85c; /* Cor de fundo da barra lateral */
+            padding: 15px;
+            height: 100vh; /* Altura total da tela */
+            position: fixed; /* Fixa a barra lateral */
+			left: 0;
+        }
+
+        .sidebar h2 {
+            color: white; /* Cor do título da barra lateral */
+        }
+
+        .sidebar a {
+            display: block; /* Cada link ocupa uma linha inteira */
+            color: white; /* Cor dos links */
+            padding: 10px; /* Espaçamento interno dos links */
+            text-decoration: none; /* Remove o sublinhado dos links */
+            margin: 5px 0; /* Espaçamento entre os links */
+        }
+
+        .sidebar a:hover {
+            background-color: #4cae4c; /* Cor ao passar o mouse sobre os links */
+        }
